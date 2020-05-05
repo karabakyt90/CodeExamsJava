@@ -1,0 +1,85 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "HTTP requests",
+        "description": "",
+        "id": "saucedemo-performance-automation;http-requests",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 140467268,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User makes GET call in performance testing",
+            "match": {
+              "location": "Performance_stepdefs.user_makes_GET_call_in_performance_testing()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127213202,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User makes POST call in performance testing",
+            "match": {
+              "location": "Performance_stepdefs.user_makes_POST_call_in_performance_testing()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20810733161,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User makes PUT call in performance testing",
+            "match": {
+              "location": "Performance_stepdefs.user_makes_PUT_call_in_performance_testing()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21628365431,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User makes DELETE call in performance testing",
+            "match": {
+              "location": "Performance_stepdefs.user_makes_DELETE_call_in_performance_testing()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sauceDemo_performance"
+          }
+        ]
+      }
+    ],
+    "name": "SauceDemo performance automation",
+    "description": "",
+    "id": "saucedemo-performance-automation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/saucedemo/performance_automation.feature",
+    "tags": [
+      {
+        "name": "@sauceDemo_performance",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

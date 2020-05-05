@@ -1,0 +1,85 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "HTTP requests",
+        "description": "",
+        "id": "saucedemo-api-automation;http-requests",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61345023,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User makes GET call",
+            "match": {
+              "location": "API_stepdefs.user_makes_GET_call()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20073541421,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User makes POST call",
+            "match": {
+              "location": "API_stepdefs.user_makes_POST_call()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9141678584,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User makes PUT call",
+            "match": {
+              "location": "API_stepdefs.user_makes_PUT_call()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9810479756,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User makes DELETE call",
+            "match": {
+              "location": "API_stepdefs.user_makes_DELETE_call()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sauceDemo_API"
+          }
+        ]
+      }
+    ],
+    "name": "SauceDemo API automation",
+    "description": "",
+    "id": "saucedemo-api-automation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/saucedemo/api_automation.feature",
+    "tags": [
+      {
+        "name": "@sauceDemo_API",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
